@@ -29,7 +29,7 @@ while (<FP>)
   my @cols = split ;
   my $sra = $cols[0] ;
   my $taxId = $cols[1] ;
-  if ($targetRank ne "strand")
+	if ($targetRank ne "strand")
   {
     while ($taxId != 1 && $taxRank{$taxId} ne $targetRank)
     {
